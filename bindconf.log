@@ -1,0 +1,43 @@
+sudo: ssh: command not found
+sudo: ssh: command not found
+
+
+
+Host key verification failed.
+Host key verification failed.
+
+ bind;Up 36 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+cp: cannot stat '/data/bind/etc/*.conf': No such file or directory
+
+ bind;Up 54 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+
+ bind;Up 57 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 57 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up 58 minutes;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+ bind;Up About an hour;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+
+
+
+bind
+
+ bind;Up 21 seconds;53/tcp, 10000/tcp, 0.0.0.0:53->53/udp
+

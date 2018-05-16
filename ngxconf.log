@@ -1,0 +1,197 @@
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  access  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  access;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
+user  nginx;
+worker_processes  1;
+
+error_log  /var/log/nginx/error.log warn;
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  access  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  access;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
+
+
+
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+mynginx;Up 38 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+
+
+
+
+
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp About an hour0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp 5 minutes0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginxUp 18 minutes0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ mynginx;Up 27 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 34 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 48 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 50 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 56 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 59 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+nginx: [emerg] host not found in upstream docker1.yunwei.edu:3031 in /etc/nginx/conf.d/upstream.conf:2
+nginx: configuration file /etc/nginx/nginx.conf test failed
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+mynginx
+
+ mynginx;Up 11 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 53 minutes;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 9 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 10 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 11 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 23 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 23 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 21 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up 22 hours;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
+ mynginx;Up About an hour;0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp
+
